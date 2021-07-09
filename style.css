@@ -21,7 +21,7 @@ body{
 
 @media (max-width: 576px){
     .main-contain{
-        width: 100%;
-        margin: 20px 20px;
+        width: 90%;
+        /* margin: 20px 20px; */
     }
 }

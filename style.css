@@ -5,7 +5,16 @@
   }
 body{
     background-color: coral;
+    height: 90vh;
+    
 }
 .back-img{
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url(../passengercounterapp/img/pexels.jpg)center center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url(/img/pexels.jpg)center center/cover no-repeat fixed;
+    position: relative;
+}
+.main-contain{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
 }
